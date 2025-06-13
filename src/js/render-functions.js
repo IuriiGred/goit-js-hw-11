@@ -1,7 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-
 const listElement = document.querySelector(".gallery");
 
 function createGallery(images) {
@@ -49,7 +48,6 @@ function createGallery(images) {
     lightbox.on('show.simplelightbox');
 }
 
-
 function clearGallery() {
     listElement.innerHTML="";
 }
@@ -65,16 +63,4 @@ function hideLoader() {
 }
 
 export { createGallery, clearGallery, showLoader, hideLoader }
-
-
-
-
-
-
-
-
-
-
-
-
 
