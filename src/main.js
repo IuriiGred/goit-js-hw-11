@@ -25,6 +25,7 @@ function handleForm(event) {
             message: "Sorry, you have to make a choice!",
     });
         formEl.reset();
+        hideLoader();
         return;
     }
     
