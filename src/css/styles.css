@@ -13,7 +13,6 @@
   align-items: center;
   margin: 36px auto 32px;
   gap: 10px;
-
 }
 
 input {
@@ -26,7 +25,6 @@ input {
     font-weight: 400;
 }
 
-
 input:hover {
   border: 1px solid #2e2f42;
 }
@@ -34,8 +32,7 @@ input:hover {
 input:focus {
   background-color: #fff;
   outline: 1px solid #4e75ff;
-} 
-
+}
 
 button {
     /* display: block; */
