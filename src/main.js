@@ -43,6 +43,7 @@ function handleForm(event) {
             formEl.reset();
         })
         .finally(() => {
+
             hideLoader();
             formEl.reset();
         })
